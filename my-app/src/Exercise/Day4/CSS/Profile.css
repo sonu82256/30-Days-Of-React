@@ -1,0 +1,43 @@
+.profile-img{
+    width: 120px;
+    border-radius: 75px;
+}
+
+.profile-container{
+    /* background-color: antiquewhite; */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 10px 10px 10px #d8d7d7;
+}
+
+.profile-name{
+    font-family: Verdana;
+}
+
+.role{
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+p{
+    font-family: Verdana;
+}
+
+.btn{
+    font-family: Verdana;
+    margin-right: 10px;
+    background-color: rgb(24, 229, 236);
+    border: none;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.last-text{
+    font-size: 12px;
+}
