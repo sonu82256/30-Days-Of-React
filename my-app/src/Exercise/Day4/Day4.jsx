@@ -11,6 +11,8 @@ import Second from './Images/Second.png'
 import Three from './Images/Three.png'
 import Four from './Images/Four.png'
 
+import './CSS/SubscribeStyle.css'
+
 const Day4 = () => {
   return (
     <>
@@ -32,7 +34,7 @@ const Day4 = () => {
             <ImagesComp img={Four} />
         </div>
 
-        <div style={{marginTop: '50px', backgroundColor: 'lightblue'}}>
+        <div className='container' >
             <SubscribeComp />
         </div>
     </>

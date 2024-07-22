@@ -1,0 +1,55 @@
+
+
+/* style={{marginTop: '50px', backgroundColor: 'lightblue', marginLeft: '20px', marginRight: '20px', borderRadius: '10px'}} */
+
+/* style={{textAlign: 'center', paddingTop: '5px', paddingBottom: '35px'}} */
+
+/* style={{fontSize: '25px'}} */
+
+/* style={{fontSize: '15px', color:'gray'}} */
+
+/* style={{paddingLeft:'10px', paddingRight: 'px', marginRight:'10px', borderRadius: '4px', border: 'none', height: '20px', width: '110px'}} */
+
+.container{
+    margin-top: 50px;
+    background-color: rgba(113, 227, 235, 0.529);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    text-align: center;
+    /* padding-top: 20px; */
+    padding-bottom: 30px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.text{
+    font-size: 15px;
+    color: rgb(74, 73, 73);
+    margin-bottom: 30px;
+}
+
+.input{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    height: 25px;
+    width: 110px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+/* style={{backgroundColor: 'red', color: 'white', border: 'none', height: '25px', width: '180px', borderRadius: '5px'}} */
+
+.subscribe-btn{
+    background-color: rgba(243, 58, 58, 0.741);
+    color: white;
+    border: none;
+    height: 25px;
+    width: 170px;
+    border-radius: 5px;
+}
