@@ -1,0 +1,35 @@
+h1{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
+    margin: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 1000px;
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.grid-item {
+    background-color: azure;
+    margin: 2px;
+    height: 70px;
+    align-content: center;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+body{
+    background-color: rgb(44, 42, 42);
+}
