@@ -1,0 +1,92 @@
+h1,p{
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+img{
+    width: 130px;
+    border-radius: 75px;
+}
+
+button{
+    background-color: rgb(137, 208, 231);
+    height: 30px;
+    border: none;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+
+/*  */
+
+.header-container-light{
+    background-color: rgb(137, 208, 231);
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.footer-container-light{
+    background-color: rgb(137, 208, 231);
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.body-container-light{
+    padding-left: 100px;
+    height: 765px;
+    margin-top: 186px;
+    /* background-color: bisque; */
+}
+
+/*  */
+
+.header-container-dark{
+    background-color: rgb(39, 44, 46);
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    color: white;
+    top: 0;
+}
+
+.footer-container-dark{
+    background-color: rgb(39, 44, 46);
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    height: 40px;
+}
+
+.body-container-dark{
+    padding-left: 100px;
+    height: 765px;
+    margin-top: 186px;
+    background-color: rgb(39, 44, 46);
+    color: white;
+    /* background-color: bisque; */
+}
+

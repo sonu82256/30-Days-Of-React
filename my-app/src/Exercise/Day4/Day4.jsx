@@ -22,7 +22,7 @@ import './CSS/Icon.css'
 const Day4 = () => {
   return (
     <>
-        <ButtonComp btn={'Like'}/>
+        {/* <ButtonComp btn={'Like'}/>
         <ButtonComp btn={'Share'}/>
         <ButtonComp btn={'Subscribe'}/>
 
@@ -45,16 +45,16 @@ const Day4 = () => {
 
         <div className='container' >
             <SubscribeComp />
-        </div>
+        </div> */}
 
        
         <div className='hexa-container'>
           <GenerateHexaCode />
         </div>
         
-        <div className='profile-container'>
+        {/* <div className='profile-container'>
             <Profile />
-        </div>
+        </div> */}
         
         
     </>
