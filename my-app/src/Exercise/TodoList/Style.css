@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+.list-of-tasks{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    margin-top: 60px;
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 1px;
+    max-width: 600px;
+    min-width: 500px;
+    box-shadow: 20px 20px 20px 20px  #d2d2d2;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.input-task{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    width: 100%;
+    margin-bottom: 30px;
+    grid-gap: 18px;
+}
+.input-field{
+    padding-left: 10px;
+    height: 30px;
+}
+.add-task{
+    background-color: bisque;
+    height: 31px;
+    min-width: 80px; 
+    margin-right: 10px;
+}
+.input-field-a{
+    height: 25px;
+    width: 100%;
+    padding-left: 8px;
+}
+.add-task-a{
+    height: 31px;
+    min-width: 80px;
+    align-items: center;
+}
+.list-of-tasks{
+    margin-left: 11px;
+    margin-right: 11px;
+    background-color: rgb(240, 240, 240);
+    display: grid;
+    grid-template-columns: 4fr 110px;
+    justify-content: end;
+    align-items: center;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    
+}
+.right{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.edit{
+    margin-right: 2px;
+    height: 25px;
+    
+}
+.para{
+    padding-left: 10px;
+}
+.task-wala-bada-dibba{
+    padding-bottom: 20px;
+}
