@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import Day18Home from './Exercise/Day18_Router/Day18Home'
-import Day18About from './Exercise/Day18_Router/Day18About'
-import Day18Contact from './Exercise/Day18_Router/Day18Contact'
+// import { Routes, Route } from 'react-router-dom'
+// import Day18Home from './Exercise/Day18_Router/Day18Home'
+// import Day18About from './Exercise/Day18_Router/Day18About'
+// import Day18Contact from './Exercise/Day18_Router/Day18Contact'
+
 // import Day4 from './Exercise/Day4/Day4'
 // import Day6 from './Exercise/Day6/Day6'
 // import Day8 from './Exercise/Day8/Day8'
@@ -9,7 +11,9 @@ import Day18Contact from './Exercise/Day18_Router/Day18Contact'
 // import Weather from './Exercise/Weather App/Weather'
 // import TodoList from './Exercise/TodoList/TodoList'
 // import Day11 from './Exercise/Day11/Day11'
-import { Routes, Route } from 'react-router-dom'
+
+import Auth from './Exercise/login/Auth'
+
 
 function App() {
   return (
@@ -22,11 +26,13 @@ function App() {
       {/* <TodoList /> */}
       {/* <Day11 /> */}
 
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={ <Day18Home/> }/>
         <Route path='/contact' element={ <Day18Contact/> }/>
         <Route path='/about' element={ <Day18About/> } />
-      </Routes>
+      </Routes> */}
+
+      <Auth />
 
     </>
   )
