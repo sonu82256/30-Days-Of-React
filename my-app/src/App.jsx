@@ -13,7 +13,8 @@ import TodoList from './Exercise/TodoList/TodoList'
 // import Day11 from './Exercise/Day11/Day11'
 
 // import Auth from './Exercise/login/Auth'
-import ManageContacts from './Exercise/ManageContacts/ManageContacts'
+// import ManageContacts from './Exercise/ManageContacts/ManageContacts'
+import TicTacToe from './Exercise/TicTacToe/TicTacToe'
 
 function App() {
   return (
@@ -34,8 +35,8 @@ function App() {
 
       {/* <Auth /> */}
 
-      <ManageContacts />
-
+      {/* <ManageContacts /> */}
+      <TicTacToe />
     </>
   )
 }
