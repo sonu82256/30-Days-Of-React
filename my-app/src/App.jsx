@@ -9,11 +9,11 @@ import { useState } from 'react'
 // import Day8 from './Exercise/Day8/Day8'
 // import Day8ii from './Exercise/Day8/Day8ii'
 // import Weather from './Exercise/Weather App/Weather'
-// import TodoList from './Exercise/TodoList/TodoList'
+import TodoList from './Exercise/TodoList/TodoList'
 // import Day11 from './Exercise/Day11/Day11'
 
-import Auth from './Exercise/login/Auth'
-
+// import Auth from './Exercise/login/Auth'
+import ManageContacts from './Exercise/ManageContacts/ManageContacts'
 
 function App() {
   return (
@@ -32,7 +32,9 @@ function App() {
         <Route path='/about' element={ <Day18About/> } />
       </Routes> */}
 
-      <Auth />
+      {/* <Auth /> */}
+
+      <ManageContacts />
 
     </>
   )

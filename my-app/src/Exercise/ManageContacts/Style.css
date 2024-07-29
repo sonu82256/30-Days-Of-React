@@ -1,0 +1,41 @@
+.heading{
+    text-align: center;
+    background-color: rgb(164, 0, 0);
+    color: white;
+}
+.form-container{
+    padding-left: 30px;
+}
+
+.form-container form label{
+    font-size: 20px;
+    color: gray;
+}
+
+.form-container form input{
+    width: 180px;
+    height: 22px;
+}
+
+.form-container form button{
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(164, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+}
+
+.list-container{
+    padding-left: 30px;
+}
+
+.list-item{
+    background-color: rgb(253, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
